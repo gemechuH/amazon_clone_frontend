@@ -1,0 +1,15 @@
+.products_container{
+  width: 90%;
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px; /* Adjust spacing as needed */
+  justify-content: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  
+  margin: 100px 20px 100px 20px;
+  /* font-size: 18px; */
+  /* border: 2px solid red; */
+}
+.products_container section{
+    margin: 0 auto;
+}

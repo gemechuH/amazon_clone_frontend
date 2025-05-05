@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: 'poppins';
+}
+.red-toast {
+  background-color: #ff6b6b !important;
+  color: white !important;
+}
+
+/* Make your toast prettier */
+.Toastify__toast--info {
+  background: linear-gradient(45deg, #6dd5ed, #2193b0);
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.Toastify__progress-bar {
+  background: #ffffff;
+}

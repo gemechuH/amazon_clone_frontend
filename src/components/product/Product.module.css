@@ -1,0 +1,129 @@
+.card__container{
+    width: 200px;
+    position: relative;
+   
+    /* border: 1px solid red; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+     transition: transform 0.6s ease, box-shadow 0.7s ease;
+    
+    
+}
+.card__container:hover{
+  
+  /* transform: scale(1.05) rotate(2deg); */
+  transform: translateY(-20px); /* Moves the card up */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5); /* Adds depth */
+}
+ 
+
+
+.card__container img{
+    width: 100%;
+    padding: 10px;
+    height: 200px;
+    object-fit: contain;
+    
+    
+}
+.card__container .button{
+    display: none;
+    background-color: #FFD814;
+    padding: 5px 10px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    margin: 0px 10px;
+    width: 200px;
+    border-radius: 30px;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
+
+.card__container:hover .button{
+    display: block;
+}
+
+
+.products_container{
+    width: 90%;
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 50px; /* Adjust spacing as needed */
+  justify-content: center;
+  
+  margin: 100px auto 100px auto;
+  /* font-size: 18px; */
+  
+}
+.products_container section{
+    margin: 0 auto;
+}
+
+.title{
+    font-size: 10px;
+    padding: 5px 0;
+    font-weight: 100;
+    opacity: 0.8;
+    
+    
+}
+.rating{
+    
+    padding-top: 10px;
+}
+
+.price{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.flex_singleProduct{
+    display: flex;
+    width: 90%;
+    height: auto;
+    gap: 30px;
+    margin: 20px;
+    /* border: 2px solid red; */
+}
+.flex_singleProduct .button{
+    display: block;
+    position: static;
+    padding: 10px;
+}
+.flex_singleProduct .button:hover{
+    background-color: orange;
+}
+
+.flex_singleProduct img{
+   width: 300px !important;
+   height: auto;
+}
+.flex_singleProduct .title{
+    width: 60%;
+    
+}
+.flex_singleProduct .title h3{
+    font-weight: 600;
+    padding-top: 20px;
+}
+.flex_singleProduct .price{
+    font-size: 24px;
+}
+
+@media screen and (max-width: 750px) {
+    .flex_singleProduct{
+        display: flex;
+        flex-direction: column;
+    }
+    .flex_singleProduct img{
+   width: 200px !important;
+   height: auto;
+}
+    
+}

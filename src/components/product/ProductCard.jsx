@@ -1,5 +1,5 @@
 import React from "react";
-import Rating from "@mui/material/rating";
+// import Rating from "@mui/material/rating";
 import CurrencyFormat from "../currencyFormat/CurrencyFormat";
 import classes from "./Product.module.css";
 import { Link } from 'react-router-dom'

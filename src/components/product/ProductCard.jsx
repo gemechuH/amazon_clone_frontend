@@ -24,9 +24,9 @@ const ProductCard = ({ product, flex, proDesc }) => {
         {proDesc && <h3>{description }</h3> }
         <div className={classes.rating}>
           {/* rating */}
-          <Rating value={rating?.rate} precision={0.1} />
+          {/* <Rating value={rating?.rate} precision={0.1} /> */}
           {/* count  */}
-          <small>{rating?.count}</small>
+          {/* <small>{rating?.count}</small> */}
         </div>
         <div className={classes.price}>
           {/* price */}
